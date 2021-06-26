@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UIBasic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="섭씨" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3u6-Fm-2d3">
+                                <rect key="frame" x="185" y="64" width="44" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="섭씨 온도를 입력하세요." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gbg-KP-8Cd">
+                                <rect key="frame" x="20" y="104" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="화씨" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xfJ-KH-mbr">
+                                <rect key="frame" x="185" y="168" width="44" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="변환하기를 누르면 화씨 온도가 나타납니다." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e3u-Gj-lrw">
+                                <rect key="frame" x="20" y="208" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YuL-xe-LrZ">
+                                <rect key="frame" x="163.5" y="282" width="87" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="변환하기"/>
+                                <connections>
+                                    <action selector="doConvert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Zu-wI-bhf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="gbg-KP-8Cd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="1JV-3y-cDu"/>
+                            <constraint firstItem="3u6-Fm-2d3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="3dJ-wg-Xo3"/>
+                            <constraint firstItem="YuL-xe-LrZ" firstAttribute="top" secondItem="e3u-Gj-lrw" secondAttribute="bottom" constant="40" id="AKc-FQ-0Xj"/>
+                            <constraint firstItem="xfJ-KH-mbr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IJK-jI-FaG"/>
+                            <constraint firstItem="xfJ-KH-mbr" firstAttribute="top" secondItem="gbg-KP-8Cd" secondAttribute="bottom" constant="30" id="Nxr-hk-ARb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gbg-KP-8Cd" secondAttribute="trailing" constant="20" id="ckN-wN-GB1"/>
+                            <constraint firstItem="YuL-xe-LrZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jES-u6-l7L"/>
+                            <constraint firstItem="3u6-Fm-2d3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jfR-NJ-Vty"/>
+                            <constraint firstItem="e3u-Gj-lrw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="pxr-zc-NFC"/>
+                            <constraint firstItem="gbg-KP-8Cd" firstAttribute="top" secondItem="3u6-Fm-2d3" secondAttribute="bottom" constant="10" id="tsm-yf-v67"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="e3u-Gj-lrw" secondAttribute="trailing" constant="20" id="wGr-GG-tP4"/>
+                            <constraint firstItem="e3u-Gj-lrw" firstAttribute="top" secondItem="xfJ-KH-mbr" secondAttribute="bottom" constant="10" id="wsQ-Fb-2t8"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="lcZ-YN-b70" appends="YES" id="J4U-bZ-SPb"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="label1" destination="gbg-KP-8Cd" id="hE8-Tc-gqc"/>
+                        <outlet property="label2" destination="e3u-Gj-lrw" id="OgY-0b-iBr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="lcZ-YN-b70">
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="BYZ-38-t0r" id="yWD-TL-G7d"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="139" y="119"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

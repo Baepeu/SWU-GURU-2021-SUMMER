@@ -1,0 +1,6 @@
+framework module Pods_UIBasic {
+  umbrella header "Pods-UIBasic-umbrella.h"
+
+  export *
+  module * { export * }
+}
