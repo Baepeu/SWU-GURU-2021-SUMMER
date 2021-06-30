@@ -16,4 +16,4 @@ class LottoCell:UITableViewCell {
     @IBOutlet weak var label06: UILabel!
     
 }
-// https://github.com/Baepeu/SWU-GURU-2021-SUMMER
+
