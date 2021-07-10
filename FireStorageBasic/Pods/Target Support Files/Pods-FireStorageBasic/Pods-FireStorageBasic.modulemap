@@ -1,0 +1,6 @@
+framework module Pods_FireStorageBasic {
+  umbrella header "Pods-FireStorageBasic-umbrella.h"
+
+  export *
+  module * { export * }
+}

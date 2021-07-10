@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1010229708899-80eaaavg633i1uj5mflrt5frgeo3v740.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1010229708899-80eaaavg633i1uj5mflrt5frgeo3v740</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCsFFDktXoYRyLBx9AdboNdBfraoBFHH_U</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1010229708899</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>beapeu.FireStoreBasic</string>
+	<key>PROJECT_ID</key>
+	<string>firestorelesson-f0bbc</string>
+	<key>STORAGE_BUCKET</key>
+	<string>firestorelesson-f0bbc.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1010229708899:ios:24e182339d3e08cd06d056</string>
+</dict>
+</plist>
